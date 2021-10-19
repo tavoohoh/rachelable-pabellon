@@ -1,10 +1,10 @@
 <template>
-  <div id="home" class="flex flex-col justify-center items-center backdrop-brightness-50 p-10" v-bind:style="{
+  <div class="page flex flex-col justify-center items-center" v-bind:style="{
     'background-image': bg
   }">
     <div class="mb-16">
       <h1 class="shdw text-white font-bold text-6xl text-center uppercase mb-3">Pabellón criollo</h1>
-      <p class="shdw text-white font-bold text-lg text-center uppercase">Sabór Venezolano</p>
+      <p class="shdw text-white text-lg text-center uppercase">Sabór Venezolano</p>
     </div>
 
     <div class="flex flex-wrap mx-auto gap-5">
@@ -39,17 +39,6 @@ export default {
 </script>
 
 <style lang="sass">
-#home
-  min-height: 100vh
-  width: 100vw
-  background-color: #acacac
-  background-size: cover
-  background-position: center
-  background-blend-mode: multiply
-
-.shdw
-  text-shadow: 3px 2px 16px rgba(0, 0, 0, 0.3)
-
 .home-card
   max-width: 180px
   cursor: pointer

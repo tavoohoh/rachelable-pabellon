@@ -22,7 +22,7 @@ const routes = [
         },
         {
           title: 'Carne Mechada',
-          link: '/carne-moolida',
+          link: '/carne-mechada',
           cookingTime: '1 hour',
           description: 'Red wine is a type of wine made from dark-colored (black) grape varieties',
           image: require('@/assets/images/carne-mechada.jpg')
@@ -63,12 +63,17 @@ const routes = [
     },
     props: {
       title: 'Caraotas',
+      otherNames: [
+        'Frijoles negros',
+        'Otro nombre',
+        'Black Beans'
+      ],
       cookingTime: '1 hour',
       description: 'Red wine is a type of wine made from dark-colored (black) grape varieties. The actual color of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines. The juice from most purple grapes is greenish-white; the red color comes from anthocyan pigments (also called anthocyanins) present in the skin of the grape; exceptions are the relatively uncommon teinturier varieties, which produce a red colored juice. Much of the red-wine production process therefore involves extraction of color and flavor components from the grape skin',
       backgroundImage: require('@/assets/images/backgrounds/caraotas.jpg'),
       image: require('@/assets/images/caraotas.jpg'),
       ingredients: [
-        '1 Kilo corte de carne de falda',
+        '1 kilo de perro a la parrilla preferiblemente Bruno',
         '1 cebolla grande',
         '2 tomates maduros',
         '1 lata pequeña de tomates fritos',
@@ -95,6 +100,11 @@ const routes = [
     },
     props: {
       title: 'Carne Mechada',
+      otherNames: [
+        'Frijoles negros',
+        'Otro nombre',
+        'Black Beans'
+      ],
       cookingTime: '1 hour',
       description: 'Red wine is a type of wine made from dark-colored (black) grape varieties. The actual color of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines. The juice from most purple grapes is greenish-white; the red color comes from anthocyan pigments (also called anthocyanins) present in the skin of the grape; exceptions are the relatively uncommon teinturier varieties, which produce a red colored juice. Much of the red-wine production process therefore involves extraction of color and flavor components from the grape skin',
       backgroundImage: require('@/assets/images/backgrounds/carne-mechada.jpg'),
@@ -127,6 +137,11 @@ const routes = [
     },
     props: {
       title: 'Arroz',
+      otherNames: [
+        'Frijoles negros',
+        'Otro nombre',
+        'Black Beans'
+      ],
       cookingTime: '12 minutos',
       description: 'Red wine is a type of wine made from dark-colored (black) grape varieties. The actual color of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines. The juice from most purple grapes is greenish-white; the red color comes from anthocyan pigments (also called anthocyanins) present in the skin of the grape; exceptions are the relatively uncommon teinturier varieties, which produce a red colored juice. Much of the red-wine production process therefore involves extraction of color and flavor components from the grape skin',
       backgroundImage: require('@/assets/images/backgrounds/arroz.jpg'),
@@ -159,6 +174,11 @@ const routes = [
     },
     props: {
       title: 'Tajadas',
+      otherNames: [
+        'Frijoles negros',
+        'Otro nombre',
+        'Black Beans'
+      ],
       cookingTime: '20 minutes',
       description: 'Red wine is a type of wine made from dark-colored (black) grape varieties. The actual color of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines. The juice from most purple grapes is greenish-white; the red color comes from anthocyan pigments (also called anthocyanins) present in the skin of the grape; exceptions are the relatively uncommon teinturier varieties, which produce a red colored juice. Much of the red-wine production process therefore involves extraction of color and flavor components from the grape skin',
       backgroundImage: require('@/assets/images/backgrounds/platano-frito.jpg'),
@@ -191,6 +211,11 @@ const routes = [
     },
     props: {
       title: 'Guarapita',
+      otherNames: [
+        'Frijoles negros',
+        'Otro nombre',
+        'Black Beans'
+      ],
       cookingTime: '20 minutes',
       description: 'Red wine is a type of wine made from dark-colored (black) grape varieties. The actual color of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines. The juice from most purple grapes is greenish-white; the red color comes from anthocyan pigments (also called anthocyanins) present in the skin of the grape; exceptions are the relatively uncommon teinturier varieties, which produce a red colored juice. Much of the red-wine production process therefore involves extraction of color and flavor components from the grape skin',
       backgroundImage: require('@/assets/images/backgrounds/guarapita.jpg'),
