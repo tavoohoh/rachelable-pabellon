@@ -26,7 +26,7 @@
     </div>
 
     <!-- ingredients and condiments -->
-    <div class="dish-page-content">
+    <div class="dish-page-content relative">
       <!-- ingredients -->
       <div class="mb-10">
         <b class="text-gray-600 uppercase text-2xl mb-4 block">Ingredients</b>
@@ -38,7 +38,7 @@
       </div>
 
       <!-- condiments -->
-      <div>
+      <div class="mb-10">
         <b class="text-gray-600 uppercase text-2xl mb-4 block">Condiments</b>
 
         <div class="mb-4 text-gray-700 text-md" v-for="(item, i) in condiments" :key="i">
@@ -95,7 +95,7 @@ export default {
     background-repeat: no-repeat
     background-position: center
     background-blend-mode: multiply
-    background-color: #444454
+    background-color: #444444
     padding: 20px
     align-items: center
     justify-content: center

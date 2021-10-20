@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "rachelableapp"
+  },
+  "targets": {
+    "rachelableapp": {
+      "hosting": {
+        "pabellon": [
+          "pabellon"
+        ]
+      }
+    }
+  }
+}

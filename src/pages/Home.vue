@@ -2,7 +2,7 @@
   <div class="page flex flex-col justify-center items-center" v-bind:style="{
     'background-image': bg
   }">
-    <div class="mb-16">
+    <div class="page-title">
       <h1 class="shdw text-white font-bold text-6xl text-center uppercase mb-3">Pabellón criollo</h1>
       <p class="shdw text-white text-lg text-center uppercase">Sabór Venezolano</p>
     </div>
@@ -39,6 +39,12 @@ export default {
 </script>
 
 <style lang="sass">
+.page-title
+  margin-bottom: 60px
+
+  @media screen and (max-width: 700px)
+    margin-bottom: 20px
+
 .home-card
   max-width: 180px
   cursor: pointer
