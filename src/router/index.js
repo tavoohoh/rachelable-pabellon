@@ -9,43 +9,43 @@ const routes = [
     name: 'Home',
     meta: {
       title: 'Rachelable - Pabellón Sabor Venezolano',
-      description: ''
+      description: 'El pabellón criollo es un plato tradicional de Venezuela reconocido como el plato nacional por excelencia que forma parte de la gastronomía venezolana.'
     },
     props: {
       dishes: [
         {
           title: 'Caraotas',
           link: '/caraotas',
-          cookingTime: '1 hour',
-          description: 'Red wine is a type of wine made from dark-colored (black) grape varieties',
+          cookingTime: '24 hours',
+          description: 'En siglos pasados solían servirse al desayuno, almuerzo y cena',
           image: require('@/assets/images/caraotas.jpg')
         },
         {
           title: 'Carne Mechada',
           link: '/carne-mechada',
-          cookingTime: '1 hour',
-          description: 'Red wine is a type of wine made from dark-colored (black) grape varieties',
+          cookingTime: '1 hour and 30 minutes',
+          description: 'Es una preparación bien especial para todos los venezolanos',
           image: require('@/assets/images/carne-mechada.jpg')
         },
         {
           title: 'Arroz',
           link: '/arroz',
-          cookingTime: '12 minutes',
-          description: 'Red wine is a type of wine made from dark-colored (black) grape varieties',
+          cookingTime: '30 minutes',
+          description: 'El arroz blanco realmente no tiene una súper explicación por detrás',
           image: require('@/assets/images/arroz.jpg')
         },
         {
           title: 'Tajadas',
           link: '/tajadas',
-          cookingTime: '20 minutes',
-          description: 'Red wine is a type of wine made from dark-colored (black) grape varieties',
+          cookingTime: '40 minutes',
+          description: 'Plátano en lonjas elongadas o redondas se fríen en aceite caliente',
           image: require('@/assets/images/platano-frito.jpg')
         },
         {
           title: 'Guarapita',
           link: '/guarapita',
           cookingTime: '20 minutes',
-          description: 'Red wine is a type of wine made from dark-colored (black) grape varieties',
+          description: 'Es una bebida dulce a base de azucar muy extendida en Venezuela',
           image: require('@/assets/images/guarapita.jpg')
         }
       ],
@@ -59,7 +59,7 @@ const routes = [
     name: 'Caraotas',
     meta: {
       title: 'Rachelable - Pabellón: Caraotas',
-      description: ''
+      description: 'Las caraotas, esos granos negros famosos en nuestra tierra han sido por generaciones parte de nuestra dieta diaria, las caraotas en siglos pasados solían servirse al desayuno, almuerzo y cena'
     },
     props: {
       title: 'Caraotas',
@@ -93,7 +93,7 @@ const routes = [
     name: 'CarneMechada',
     meta: {
       title: 'Rachelable - Pabellón: Carne Mechada',
-      description: ''
+      description: 'Es una preparación bien especial para todos los venezolanos'
     },
     props: {
       title: 'Carne Mechada',
@@ -129,7 +129,7 @@ const routes = [
     name: 'Arroz',
     meta: {
       title: 'Rachelable - Pabellón: Arroz',
-      description: ''
+      description: 'El arroz blanco realmente no tiene una súper explicación por detrás'
     },
     props: {
       title: 'Arroz',
@@ -162,7 +162,7 @@ const routes = [
     name: 'Tajadas',
     meta: {
       title: 'Rachelable - Pabellón: Tajadas',
-      description: ''
+      description: 'Plátano en lonjas elongadas o redondas se fríen en aceite caliente'
     },
     props: {
       title: 'Tajadas',
@@ -189,7 +189,7 @@ const routes = [
     name: 'Guarapita',
     meta: {
       title: 'Rachelable - Pabellón: Guarapita',
-      description: ''
+      description: 'Es una bebida dulce a base de azucar muy extendida en Venezuela'
     },
     props: {
       title: 'Guarapita',
