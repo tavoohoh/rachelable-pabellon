@@ -16,12 +16,14 @@
         </h2>
       </div>
 
-      <p class="shdw text-md text-center text-white mb-16">
-        {{ description }}
-      </p>
+      <div class="shdw text-md text-center text-white mb-16" v-html="description"></div>
 
       <b class="shdw text-xs text-center text-white uppercase">
         Preparation time {{ cookingTime }}
+      </b>
+
+      <b class="shdw text-xs text-center text-white mt-2" v-if="persons">
+        {{ persons }} Comensales
       </b>
     </div>
 
@@ -37,17 +39,7 @@
         </div>
       </div>
 
-      <!-- condiments -->
-      <div class="mb-10">
-        <b class="text-gray-600 uppercase text-2xl mb-4 block">Condiments</b>
-
-        <div class="mb-4 text-gray-700 text-md" v-for="(item, i) in condiments" :key="i">
-          <hr class="mb-2">
-          {{ item }}
-        </div>
-      </div>
-
-      <div @click="$router.push('/where-and-what-to-get')" class="absolute bottom-8 right-8 bg-gray-700 text-white rounded-md py-1 px-3 cursor-pointer text-sm">
+      <div @click="$router.push('/where-to-get')" class="absolute bottom-8 right-8 bg-gray-700 text-white rounded-md py-1 px-3 cursor-pointer text-sm">
         Where to get &rarr;
       </div>
     </div>
@@ -62,6 +54,7 @@ export default {
     title: String,
     description: String,
     cookingTime: String,
+    persons: String,
     backgroundImage: String,
     backgroundColor: String,
     image: String,
